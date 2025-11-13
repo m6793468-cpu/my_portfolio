@@ -1,0 +1,88 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+.navs {
+  display: flex;
+  gap: 70px;
+  padding-right: 50px;
+  font-size: 5rem;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+img {
+  height: 200px;
+  width: auto;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: hsl(240, 100%, 25%);
+}
+a:active {
+  color: hsl(240, 100%, 20%);
+}
+
+#projects {
+  margin-top: 100vh; /* pushes it down by one full screen height */
+  min-height: 100vh;
+}
+
+section {
+  padding: 40px;
+}
+
+.each-project {
+  text-decoration: none;
+  font-size: 2rem;
+}
+.each-project:hover {
+  color: red;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+li {
+  list-style-type: none;
+}
+
+figcaption {
+  font-family: monospace;
+  font-weight: 200;
+  padding-top: 10px;
+}
+
+figure {
+  padding: 1rem;
+}
+
+kbd {
+  font-size: 10px;
+  color: blue;
+}
